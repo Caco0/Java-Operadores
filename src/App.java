@@ -35,9 +35,32 @@ public class App {
         // System.out.println(++ num); 
         // o incremento deve vir antes para poder imprimir ++ ou -- depois a variável 
 
-        boolean variavel =  true;
-        System.out.println(!variavel);
-        variavel = !variavel;
-        System.out.println(variavel);
+        // boolean variavel =  true;
+        // System.out.println(!variavel);
+        // variavel = !variavel;
+        // System.out.println(variavel);
+
+        //Operadores lógicos / ternários
+
+        int a, b;
+
+        a = 5;
+        b = 6;
+        // String resultado = "";
+
+        // if (a==b) {
+        //     resultado = "verdadeiro";
+        // }else
+        // resultado = "falso";
+
+        // System.out.println(resultado);
+
+
+        // Operador Ternário-------------------------------
+        String resultado = a==b ?"verdadeiro": "falso";
+
+        System.out.println(resultado);
+
+
     }
 }
